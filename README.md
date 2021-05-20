@@ -1,8 +1,8 @@
-- 일시 : 5월24일부터(6주간)
-- 목표 : 유투브 - 백엔드 + 프런트엔드 + 디플로이
+- Period : 5월24일부터(6주간)
+- Goal : Youtube - Frontend + Backend + Deploy
 ---
 
-- 세부 구현 사항
+- Features
   - Users
     - User Authentication
     - Facebook Login
