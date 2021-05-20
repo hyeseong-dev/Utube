@@ -1,0 +1,45 @@
+- 일시 : 5월24일부터(6주간)
+- 목표 : 유투브 - 백엔드 + 프런트엔드 + 디플로이
+---
+
+- 세부 구현 사항
+  - Users
+    - User Authentication
+    - Facebook Login
+    - Github Login
+    - User Profile
+    - Login
+    - Logout
+  - Videos
+    - Video Upload
+    - Video Recording
+    - Search Video
+    - AJAX Comments
+    - View Count
+  - Deployment
+    - Heroku
+    - S3 Upload
+    - Mongo Atlas
+  - Theory
+    - MVC
+    - Routing
+    - Templates
+    - Models
+    - Relationships
+
+---
+
+- Tools
+  - NodeJS
+  - ES6
+  - Express
+  - Babel
+  - Pug
+  - Passport
+  - AJAX
+  - Webpack
+  - SCSS
+  - MongoDB
+  - Mongoose
+  - Multer
+  - ESLint
