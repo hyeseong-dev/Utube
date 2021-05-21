@@ -10,7 +10,7 @@ import routes from "./routes";
 
 const app = express();
 
-
+app.set('view engine', "pug");
 app.use([
     cookieParser(),
     bodyParser.json(),                        // json데이터 처리
@@ -19,8 +19,8 @@ app.use([
     morgan("dev"),
 ]); 
 
-app.use(routes.home, globalRouter);
-app.use(routes.users, userRouter);
 app.use(routes.videos, videoRouter);
+app.use(routes.users, userRouter);
+app.use(routes.home, globalRouter); 
 
 export default app;
