@@ -1,11 +1,11 @@
 doctype html
 html
     head
-        title Nutube
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p", crossorigin="anonymous")
+        title | #{siteName}
     body
-        header 
-            h1 Nutube
-        main
+        include ../partials/header
             block content
-        footer
-            span &copy; NuTube
+            h1 Nutube
+        include ../partials/footer
+
