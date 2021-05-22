@@ -1,8 +1,11 @@
-export const home = (req, res) => 
-res.render("home", {pageTitle: "Home"}); // 첫번째는 템플릿 두번째는 템플릿에 전달될 객체 정보
+import {videos} from "../db"
+
+export const home = (req, res) => {
+  res.render("home", {pageTitle: "Home", videos:videos});
+};
 
 export const search = (req, res) => {
-    const {
+  const {
       query: { term: searchingBy }
     } = req;
     res.render("search", { pageTitle: "Search", searchingBy });
